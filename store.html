@@ -1,84 +1,96 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Explore the JPKicks collection of Yeezy, New Balance, and Cole Haan shoes." />
+    <meta
+      name="description"
+      content="Explore the JPKicks collection of Yeezy, New Balance, and Cole Haan shoes."
+    />
     <title>JPKicks | Store</title>
     <link rel="stylesheet" href="./src/styles/main.css" />
     <script type="module" src="./src/main.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="site-header">
-        <nav class="navbar" aria-label="Main navigation">
-            <a class="brand" href="./index.html">JPKicks</a>
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="./index.html">JPKicks</a>
 
-            <ul class="nav-links">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li>
-                    <a href="./store.html" aria-current="page">Store</a>
-                </li>
-            </ul>
-        </nav>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li>
+            <a href="./store.html" aria-current="page">Store</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="page-content">
-        <section class="store-heading" aria-labelledby="store-title">
-            <p class="eyebrow">The JPKicks collection</p>
-            <h1 id="store-title">Find Your Next Pair.</h1>
-            <p>
-                Explore our favorites from Yeezy, New Balance, and Cole Haan.
-                Five pairs per brand, each with its own personality.
-            </p>
-        </section>
-    
-        <section class="store-catalog" aria-labelledby="brand-heading">
-            <div class="catalog-heading">
-                <h2 id="brand-heading">Our Collection</h2>
-                <p id="product-count"></p>
-            </div>
-    
-            <div id="product-grid" class="product-grid"></div>
-    
-            <nav class="pagination" aria-label="Product pagination">
-                <button id="previous-button" class="pagination-button" type="button" aria-controls="product-grid" disabled>
-                    Previous
-                </button>
-    
-                <p id="page-indicator" role="status" aria-atomic="true"></p>
-    
-                <button id="next-button" class="pagination-button" type="button" aria-controls="product-grid">
-                    Next
-                </button>
-            </nav>
-    
-            <noscript>
-                <p>Please enable JavaScript to view the shoe collection.</p>
-            </noscript>
-        </section>
+      <section class="store-heading" aria-labelledby="store-title">
+        <p class="eyebrow">The JPKicks collection</p>
+        <h1 id="store-title">Find Your Next Pair.</h1>
+        <p>
+          Explore our favorites from Yeezy, New Balance, and Cole Haan. Five
+          pairs per brand, each with its own personality.
+        </p>
+      </section>
+
+      <section class="store-catalog" aria-labelledby="brand-heading">
+        <div class="catalog-heading">
+          <h2 id="brand-heading">Our Collection</h2>
+          <p id="product-count"></p>
+        </div>
+
+        <div id="product-grid" class="product-grid"></div>
+
+        <nav class="pagination" aria-label="Product pagination">
+          <button
+            id="previous-button"
+            class="pagination-button"
+            type="button"
+            aria-controls="product-grid"
+            disabled
+          >
+            Previous
+          </button>
+
+          <p id="page-indicator" role="status" aria-atomic="true"></p>
+
+          <button
+            id="next-button"
+            class="pagination-button"
+            type="button"
+            aria-controls="product-grid"
+          >
+            Next
+          </button>
+        </nav>
+
+        <noscript>
+          <p>Please enable JavaScript to view the shoe collection.</p>
+        </noscript>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <div class="footer-content">
-            <div>
-                <a class="brand" href="./index.html">JPKicks</a>
-                <p>Everyday comfort. Individual style.</p>
-            </div>
-
-            <div>
-                <h2 class="footer-heading">Store Hours</h2>
-                <p>Monday–Saturday: 10 AM–7 PM</p>
-                <p>Sunday: 12 PM–5 PM</p>
-            </div>
+      <div class="footer-content">
+        <div>
+          <a class="brand" href="./index.html">JPKicks</a>
+          <p>Everyday comfort. Individual style.</p>
         </div>
 
-        <p class="footer-copyright">
-            &copy; 2026 JPKicks. A fictional storefront for a class assignment.
-        </p>
-    </footer>
-</body>
+        <div>
+          <h2 class="footer-heading">Store Hours</h2>
+          <p>Monday–Saturday: 10 AM–7 PM</p>
+          <p>Sunday: 12 PM–5 PM</p>
+        </div>
+      </div>
 
+      <p class="footer-copyright">
+        &copy; 2026 JPKicks. A fictional storefront for a class assignment.
+      </p>
+    </footer>
+  </body>
 </html>

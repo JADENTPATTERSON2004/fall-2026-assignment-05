@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Yeezy Boost 350 V2 Zebra",
-    "price": 230.00,
+    "price": 230.0,
     "category": "Adidas / Yeezy",
     "description": "A distinctive black-and-white striped upper with red lettering. A versatile statement sneaker for casual outfits.",
     "imageUrl": "./images/yeezy-350-zebra.jpg"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Yeezy Boost 350 V2 Oreo",
-    "price": 230.00,
+    "price": 230.0,
     "category": "Adidas / Yeezy",
     "description": "A black upper with a contrasting cream stripe and SPLY-350 lettering. A clean colorway for everyday casual outfits.",
     "imageUrl": "./images/yeezy-350-v2-oreo.jpg"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Yeezy Boost 350 V2 Onyx",
-    "price": 230.00,
+    "price": 230.0,
     "category": "Adidas / Yeezy",
     "description": "A dark colorway that brings a subtle look to the recognizable 350 V2 silhouette. Designed for effortless casual styling.",
     "imageUrl": "./images/yeezy-350-onyx.jpg"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Yeezy Boost 350 Moonrock",
-    "price": 220.00,
+    "price": 220.0,
     "category": "Adidas / Yeezy",
     "description": "Muted gray-green tones cover the patterned upper and matching sole. An understated colorway of the original Yeezy Boost 350.",
     "imageUrl": "./images/yeezy-350-moonrock.jpg"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Yeezy 500 Blush",
-    "price": 210.00,
+    "price": 210.0,
     "category": "Adidas / Yeezy",
     "description": "Soft neutral tones meet a sculpted sole and layered upper. A standout silhouette with understated coloring.",
     "imageUrl": "./images/yeezy-500-blush.jpg"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "New Balance 993 Grey",
-    "price": 200.00,
+    "price": 200.0,
     "category": "New Balance",
     "description": "A classic gray sneaker with a layered suede-and-mesh look. Its understated styling works with everyday outfits.",
     "imageUrl": "./images/new-balance-993-grey.jpg"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Joe Freshgoods x New Balance 993 Arctic Blue",
-    "price": 220.00,
+    "price": 220.0,
     "category": "New Balance",
     "description": "Soft blue tones bring a fresh look to the classic 993 silhouette. A colorful addition to the Joe Freshgoods Performance Art collection.",
     "imageUrl": "./images/new-balance-993-joe-freshgoods-arctic-blue.jpg"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Joe Freshgoods x New Balance 993 Sage",
-    "price": 220.00,
+    "price": 220.0,
     "category": "New Balance",
     "description": "Soft sage-green tones give this 993 a subtle, earthy appearance. Part of the Joe Freshgoods Performance Art collection.",
     "imageUrl": "./images/new-balance-993-joe-freshgoods-sage.jpg"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "New Balance 990v3 Grey",
-    "price": 200.00,
+    "price": 200.0,
     "category": "New Balance",
     "description": "A signature gray colorway with layered panels and a retro running silhouette. A timeless addition to a sneaker collection.",
     "imageUrl": "./images/new-balance-990v3-grey.jpg"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "New Balance 990v3 Navy",
-    "price": 200.00,
+    "price": 200.0,
     "category": "New Balance",
     "description": "A navy upper paired with contrasting lighter details. This classic silhouette brings an understated finish to casual looks.",
     "imageUrl": "./images/new-balance-990v3-navy.jpg"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "name": "Cole Haan OriginalGrand Wingtip Oxford Black",
-    "price": 160.00,
+    "price": 160.0,
     "category": "Cole Haan",
     "description": "Traditional wingtip detailing paired with a modern sole. A polished black shoe for dressier everyday outfits.",
     "imageUrl": "./images/cole-haan-originalgrand-black.jpg"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "Cole Haan OriginalGrand Wingtip Oxford Brown",
-    "price": 160.00,
+    "price": 160.0,
     "category": "Cole Haan",
     "description": "A warm brown wingtip with classic decorative detailing. A versatile choice for smart casual and business outfits.",
     "imageUrl": "./images/cole-haan-originalgrand-brown.jpg"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "Cole Haan Grand Crosscourt Sneaker White",
-    "price": 100.00,
+    "price": 100.0,
     "category": "Cole Haan",
     "description": "A clean white sneaker with a simple low-top profile. An easy addition to both relaxed and polished casual looks.",
     "imageUrl": "./images/cole-haan-grand-crosscourt-white.jpg"
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "name": "Cole Haan Grand Crosscourt Sneaker Black",
-    "price": 100.00,
+    "price": 100.0,
     "category": "Cole Haan",
     "description": "A minimal black sneaker with understated styling. A practical option for an everyday footwear rotation.",
     "imageUrl": "./images/cole-haan-grand-crosscourt-black.jpg"
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "name": "Cole Haan Men's Grand Crosscourt Daily Laser Sneakers Brown",
-    "price": 150.00,
+    "price": 150.0,
     "category": "Cole Haan",
     "description": "A brown sneaker with laser-cut detailing and a casual silhouette. A versatile choice for relaxed and smart casual outfits.",
     "imageUrl": "./images/cole-haan-grand-crosscourt-daily-laser-brown.jpg"
