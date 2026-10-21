@@ -11,8 +11,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         about: resolve(__dirname, 'about.html'),
-        store: resolve(__dirname, 'store.html')
-      }
-    }
-  }
+        store: resolve(__dirname, 'store.html'),
+      },
+    },
+  },
 });
