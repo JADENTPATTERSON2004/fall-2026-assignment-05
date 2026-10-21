@@ -26,8 +26,39 @@
     </header>
 
     <main class="page-content">
-        <h1>Shop the Collection</h1>
-        <p>Explore Yeezy, New Balance, and Cole Haan.</p>
+        <section class="store-heading" aria-labelledby="store-title">
+            <p class="eyebrow">The JPKicks collection</p>
+            <h1 id="store-title">Find Your Next Pair.</h1>
+            <p>
+                Explore our favorites from Yeezy, New Balance, and Cole Haan.
+                Five pairs per brand, each with its own personality.
+            </p>
+        </section>
+    
+        <section class="store-catalog" aria-labelledby="brand-heading">
+            <div class="catalog-heading">
+                <h2 id="brand-heading">Our Collection</h2>
+                <p id="product-count"></p>
+            </div>
+    
+            <div id="product-grid" class="product-grid"></div>
+    
+            <nav class="pagination" aria-label="Product pagination">
+                <button id="previous-button" class="pagination-button" type="button" aria-controls="product-grid" disabled>
+                    Previous
+                </button>
+    
+                <p id="page-indicator" role="status" aria-atomic="true"></p>
+    
+                <button id="next-button" class="pagination-button" type="button" aria-controls="product-grid">
+                    Next
+                </button>
+            </nav>
+    
+            <noscript>
+                <p>Please enable JavaScript to view the shoe collection.</p>
+            </noscript>
+        </section>
     </main>
 
     <footer class="site-footer">
