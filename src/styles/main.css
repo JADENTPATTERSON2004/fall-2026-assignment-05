@@ -1,0 +1,155 @@
+:root {
+    --background: #f7f5f0;
+    --text: #252525;
+    --muted: #66635e;
+    --border: #dedbd4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar,
+.page-content,
+.footer-content,
+.footer-copyright {
+    width: min(1120px, 90%);
+    margin-inline: auto;
+}
+
+.site-header {
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar {
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.brand {
+    color: var(--text);
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-links a {
+    display: inline-block;
+    padding-block: 8px;
+    border-bottom: 2px solid transparent;
+    color: var(--muted);
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+        color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a[aria-current="page"] {
+    border-bottom-color: var(--text);
+    color: var(--text);
+}
+
+a:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 5px;
+}
+
+.page-content {
+    padding-block: 64px;
+}
+
+.page-content h1 {
+    margin: 0 0 16px;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.15;
+    letter-spacing: -1.5px;
+}
+
+.page-content>p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1.1rem;
+}
+
+.site-footer {
+    margin-top: 64px;
+    padding-block: 40px 20px;
+    border-top: 1px solid var(--border);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.footer-content p {
+    margin: 6px 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.footer-heading {
+    margin: 0 0 10px;
+    font-size: 1rem;
+}
+
+.footer-copyright {
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 8px;
+        padding-block: 16px;
+    }
+
+    .nav-links {
+        gap: 24px;
+    }
+
+    .page-content {
+        padding-block: 40px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
